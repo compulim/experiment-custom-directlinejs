@@ -1,19 +1,7 @@
-## Your repository is almost ready
+# experiment-custom-directlinejs
 
-There are few more steps to enable GitHub Pages and continuous deployment.
+This experiment use a development build of `BotFramework-DirectLineJS` with Web Chat.
 
-1. Enable GitHub Pages
-   1. Navigate to [Pages settings](../../settings/pages)
-   1. In the "Source" field, select "GitHub Actions"
-1. Trigger the deployment
-   1. [Modify and commit `App.tsx` to main](../../edit/main/src/app/ui/App.tsx)
-   1. Check deployment workflow at [![Deploy static content to Pages](../../actions/workflows/static.yml/badge.svg)](../../actions/workflows/static.yml)
+The development build will watch for network type change through [Network Information API](https://developer.mozilla.org/en-US/docs/Web/API/Network_Information_API).
 
-### GitHub Codespaces
-
-You can set up prebuild to speed up Codespaces creation. The prebuilt image will pre-install all dependencies under `/node_modules/` with initial build.
-
-1. [Set up Codespaces prebuilds](../../settings/codespaces/prebuild_configurations/new)
-   1. Check prebuild workflow at [![Codespaces Prebuilds](../../actions/workflows/codespaces/create_codespaces_prebuilds/badge.svg)](../../actions/workflows/codespaces/create_codespaces_prebuilds)
-
-Once the prebuild action is completed, you can create a new prebuilt codespace.
+For details, please refer to [PR #412](https://github.com/microsoft/BotFramework-DirectLineJS/pull/412).
