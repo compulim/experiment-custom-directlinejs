@@ -14,4 +14,4 @@ DirectLineJS ASE adapter (a.k.a. DLASE) will reconnect up to 3 times. When a sta
 
 DLASE consider the connection is stable if the connection did not close within a minute after the connection is established.
 
-In other words, if connection is flaky and it keeps reconnecting quickly, it may fail to reconnect.
+In other words, if connection is flaky and it keeps reconnecting quickly. Despite there maybe successful connection inbetween, it may fail to reconnect after 3 times.
